@@ -84,7 +84,7 @@ def print_info(args, data):
         out.write('Device type: Mifare Classic\n')
         out.write('# UID, ATQA and SAK are common for all formats\n')
         out.write("UID: " + str(uid))
-        out.write("\nATQA: " + str(sak))
+        out.write("\nATQA: " + str(atqa))
         out.write("\nSAK: " + str(sak))
         out.write('\n# Mifare Classic specific data\n')
         out.write('Mifare Classic type: 1K\n')
