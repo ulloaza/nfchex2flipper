@@ -3,4 +3,3 @@ Translates MiFare Classic hex dumps (from libnfc) to flipper nfc files for emula
 
 ------------------
 Usage: dump2flipper.py <dump.nfc> <flipper.nfc>
-Mifare dumps reader.
